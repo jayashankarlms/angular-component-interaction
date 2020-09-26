@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'component-interaction';
+  public name : string = 'jaya shankar';
+  public password : string = 'pass';
+  public message : string;
+    title = 'component-interaction';
 }
